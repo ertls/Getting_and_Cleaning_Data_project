@@ -51,3 +51,7 @@ for (i in 4:42) {
 }
 names(average_harusd)[c(1,2)] <- c("activity", "subject")
 names(average_harusd)[c(3:42)] <- names(harusd)[c(3:42)]
+
+#writes tidy data set average_harusd
+write.table(average_harusd, file="means_grouped_by_subject_and_activity.txt",
+            row.names = FALSE)
