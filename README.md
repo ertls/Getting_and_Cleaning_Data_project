@@ -13,9 +13,15 @@ Description of run_analysis.R:
 Code Book
 ---------
 average_harusd
+
 180 observations from each subject (30) and each activity(6)
+
 activity is described in 1st row
+
 subject number in 2nd row
+
 both as labeled in the original data files (-> see also README.txt in the original data)
+
 each following row (3:42) mean of the different observations for each activity and each subject
+
 each labeled as in the original data files (-> activity_labels.txt)
